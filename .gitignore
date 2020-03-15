@@ -2,9 +2,9 @@
 
 # dependencies
 /node_modules
+/textos/
 /.pnp
 .pnp.js
-/textos
 # testing
 /coverage
 
