@@ -16,19 +16,19 @@
 const argv = require('yargs')
   //command define los commandos
    .command('listar', 'imprime en consola la tabla', {
-base:{
-    demand:true,
-    alias:'b',
-    description:'Numero por el cual se multiplicara'
-},
-limite:{
-    alias:'l',
-    default:10,
-    description:'Rango de la tabla de multiplicacion',
-},
-version:{
-    alias:'v'
-}
+        base:{
+            demand:true,
+            alias:'b',
+            description:'Numero por el cual se multiplicara'
+        },
+        limite:{
+            alias:'l',
+            default:10,
+            description:'Rango de la tabla de multiplicacion',
+        },
+        version:{
+            alias:'v'
+        }
     })
     .command('crear','crea un archivo txt con los datos ingresados',{
         base:{
